@@ -897,7 +897,7 @@ msgstr "Izgleda da je vaša poveznica za resetiranje lozinke neispravna. Molimo 
 msgid "Your password reset link has expired. Please request a new link below."
 msgstr "Izgleda da je vaša poveznica za resetiranje lozinke istekla. Molimo vas da ispod pošaljete zahtjev za novu poveznicu."
 
-#: wp-includes/pluggable.php:1780
+#: wp-includes/pluggable.php:1789
 msgid "To set your password, visit the following address:"
 msgstr "Za postavljanje lozinke, idite na sljedeću adresu:"
 
@@ -1648,13 +1648,13 @@ msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in dat
 msgstr "<strong>Nije moguće pronaći stranicu %1$s.</strong> Traži se tablica %2$s u bazi podataka %3$s. Da li je to točno?"
 
 #. translators: 1: comment author, 2: author IP, 3: author domain
-#: wp-includes/pluggable.php:1486 wp-includes/pluggable.php:1634
+#: wp-includes/pluggable.php:1495 wp-includes/pluggable.php:1643
 msgid "Author: %1$s (IP: %2$s, %3$s)"
 msgstr "Autor: %1$s (IP: %2$s, %3$s)"
 
 #. translators: 1: website name, 2: website IP, 3: website hostname
-#: wp-includes/pluggable.php:1466 wp-includes/pluggable.php:1476
-#: wp-includes/pluggable.php:1619 wp-includes/pluggable.php:1627
+#: wp-includes/pluggable.php:1475 wp-includes/pluggable.php:1485
+#: wp-includes/pluggable.php:1628 wp-includes/pluggable.php:1636
 msgid "Website: %1$s (IP: %2$s, %3$s)"
 msgstr "Web stranica: %1$s (IP: %2$s, %3$s)"
 
@@ -1812,26 +1812,26 @@ msgctxt "verb"
 msgid "Trash"
 msgstr "Smeće"
 
-#: wp-includes/pluggable.php:1490
+#: wp-includes/pluggable.php:1499
 msgid "You can see all comments on this post here:"
 msgstr "Sve komentare na ovu objavu možete vidjeti ovdje:"
 
-#: wp-includes/pluggable.php:1479
+#: wp-includes/pluggable.php:1488
 msgid "You can see all pingbacks on this post here:"
 msgstr "Sve povratne pingove na ovu objavu možete vidjeti ovdje:"
 
-#: wp-includes/pluggable.php:1469
+#: wp-includes/pluggable.php:1478
 msgid "You can see all trackbacks on this post here:"
 msgstr "Sve povratne veze na ovu objavu možete vidjeti ovdje:"
 
-#: wp-includes/pluggable.php:1468 wp-includes/pluggable.php:1478
-#: wp-includes/pluggable.php:1489 wp-includes/pluggable.php:1637
+#: wp-includes/pluggable.php:1477 wp-includes/pluggable.php:1487
+#: wp-includes/pluggable.php:1498 wp-includes/pluggable.php:1646
 msgid "Comment: %s"
 msgstr "Komentar: %s"
 
-#: wp-includes/pluggable.php:1467 wp-includes/pluggable.php:1477
-#: wp-includes/pluggable.php:1488 wp-includes/pluggable.php:1620
-#: wp-includes/pluggable.php:1628 wp-includes/pluggable.php:1636
+#: wp-includes/pluggable.php:1476 wp-includes/pluggable.php:1486
+#: wp-includes/pluggable.php:1497 wp-includes/pluggable.php:1629
+#: wp-includes/pluggable.php:1637 wp-includes/pluggable.php:1645
 msgid "URL: %s"
 msgstr "URL: %s"
 
@@ -4734,7 +4734,7 @@ msgstr "%1$s je <strong>neispravno pozvan</strong>. %2$s %3$s"
 msgid "Sorry, you cannot publish this post."
 msgstr "Nažalost, nemate ovlasti za publiciranje ove objave."
 
-#: wp-includes/pluggable.php:1496
+#: wp-includes/pluggable.php:1505
 msgid "Permalink: %s"
 msgstr "Stalna veza: %s"
 
@@ -5241,7 +5241,7 @@ msgstr "Nažalost, da biste pregledali kategorije, morate imati dopuštenje za u
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Nažalost, nemate dopuštenje za objavu stranica na ovoj web stranici."
 
-#: wp-includes/pluggable.php:1754
+#: wp-includes/pluggable.php:1763
 msgid "New user registration on your site %s:"
 msgstr "Registracija novog korisnika na vašoj web stranici %s:"
 
@@ -5513,7 +5513,7 @@ msgstr "Ako ste vlasnik ove mreže provjerite jeli MySQL funkcionira ispravno i 
 msgid "If your site does not display, please contact the owner of this network."
 msgstr "Ako vaša se vaša web stranice ne prikazuje, kontaktirajte vlasnika ove mreže."
 
-#: wp-includes/pluggable.php:1474
+#: wp-includes/pluggable.php:1483
 msgid "New pingback on your post \"%s\""
 msgstr "Nova povratna veza na vašu objavu \"%s\""
 
@@ -5521,23 +5521,23 @@ msgstr "Nova povratna veza na vašu objavu \"%s\""
 msgid "Create Site"
 msgstr "Kreiraj web stranicu"
 
-#: wp-includes/pluggable.php:1464
+#: wp-includes/pluggable.php:1473
 msgid "New trackback on your post \"%s\""
 msgstr "Nova povratna veza na vašu objavu \"%s\""
 
-#: wp-includes/pluggable.php:1484
+#: wp-includes/pluggable.php:1493
 msgid "New comment on your post \"%s\""
 msgstr "Novi komentar na vašu objavu \"%s\""
 
-#: wp-includes/pluggable.php:1616
+#: wp-includes/pluggable.php:1625
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
 msgstr "Nova povratna veza na objavu \"%s\" čeka vaše odobrenje"
 
-#: wp-includes/pluggable.php:1624
+#: wp-includes/pluggable.php:1633
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
 msgstr "Novi povratni ping na objavu \"%s\" čeka vaše odobrenje"
 
-#: wp-includes/pluggable.php:1632
+#: wp-includes/pluggable.php:1641
 msgid "A new comment on the post \"%s\" is waiting for your approval"
 msgstr "Novi komentar na objavu \"%s\" čeka vaše odobrenje"
 
@@ -6047,25 +6047,25 @@ msgstr "Zaštićeno: %s"
 msgid "Private: %s"
 msgstr "Privatno: %s"
 
-#: wp-includes/pluggable.php:1758
+#: wp-includes/pluggable.php:1767
 msgid "[%s] New User Registration"
 msgstr "[%s] Registracija novog korisnika"
 
-#: wp-includes/pluggable.php:1755 wp-includes/pluggable.php:1779
+#: wp-includes/pluggable.php:1764 wp-includes/pluggable.php:1788
 #: wp-login.php:324
 msgid "Username: %s"
 msgstr "Korisničko ime: %s"
 
-#: wp-includes/pluggable.php:1641
+#: wp-includes/pluggable.php:1650
 msgid "Approve it: %s"
 msgstr "Odobri: %s"
 
-#: wp-includes/pluggable.php:1504 wp-includes/pluggable.php:1646
+#: wp-includes/pluggable.php:1513 wp-includes/pluggable.php:1655
 msgid "Spam it: %s"
 msgstr "Označi kao spam: %s"
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1492
+#: wp-includes/pluggable.php:1501
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Komentar: \"%2$s\""
 
@@ -6659,11 +6659,11 @@ msgid "Delete table"
 msgstr "Izbriši tablicu"
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1471
+#: wp-includes/pluggable.php:1480
 msgid "[%1$s] Trackback: \"%2$s\""
 msgstr "[%1$s] Povratna veza: \"%2$s\""
 
-#: wp-includes/pluggable.php:1502 wp-includes/pluggable.php:1645
+#: wp-includes/pluggable.php:1511 wp-includes/pluggable.php:1654
 msgid "Delete it: %s"
 msgstr "Izbriši: %s"
 
@@ -6734,11 +6734,11 @@ msgstr "Precrtano"
 msgid "Powered by WordPress"
 msgstr "Pokreće WordPress"
 
-#: wp-includes/pluggable.php:1715
+#: wp-includes/pluggable.php:1724
 msgid "Password Lost and Changed for user: %s"
 msgstr "Lozinka je izgubljena i promijenjena za korisnika: %s"
 
-#: wp-includes/pluggable.php:1719
+#: wp-includes/pluggable.php:1728
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] Lozinka izgubljena/promijenjena"
 
@@ -6763,19 +6763,19 @@ msgid "Still waiting for your email?"
 msgstr "Još čekate svoj poruku e-pošte?"
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1481
+#: wp-includes/pluggable.php:1490
 msgid "[%1$s] Pingback: \"%2$s\""
 msgstr "[%1$s] Povratni ping: \"%2$s\""
 
-#: wp-includes/pluggable.php:1500 wp-includes/pluggable.php:1643
+#: wp-includes/pluggable.php:1509 wp-includes/pluggable.php:1652
 msgid "Trash it: %s"
 msgstr "Smjesti u smeće: %s"
 
-#: wp-includes/pluggable.php:1621
+#: wp-includes/pluggable.php:1630
 msgid "Trackback excerpt: "
 msgstr "Izvadak povratne veze:"
 
-#: wp-includes/pluggable.php:1629
+#: wp-includes/pluggable.php:1638
 msgid "Pingback excerpt: "
 msgstr "Izvadak povratnog pinga:"
 
@@ -7116,7 +7116,7 @@ msgstr "Informacije dodatka:"
 msgid "Register For This Site"
 msgstr "Registrirajte se na ovu web stranicu"
 
-#: wp-includes/pluggable.php:1785
+#: wp-includes/pluggable.php:1794
 msgid "[%s] Your username and password info"
 msgstr "[%s] Vaše korisničko ime i lozinka"
 
@@ -7236,14 +7236,14 @@ msgstr "Dotična adresa e-pošte je već upotrijebljena. Provjerite svoj dolaznu
 msgid "Could not create user"
 msgstr "Nije moguće stvoriti korisnika."
 
-#: wp-includes/pluggable.php:1648
+#: wp-includes/pluggable.php:1657
 msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
 msgstr[0] "Trenutno %s komentar čeka odobrenje. Posjetite stranicu za moderiranje:"
 msgstr[1] "Trenutno %s komentara čeka odobrenje. Posjetite stranicu za moderiranje:"
 msgstr[2] "Trenutno %s komentara čeka odobrenje. Posjetite stranicu za moderiranje:"
 
-#: wp-includes/pluggable.php:1652
+#: wp-includes/pluggable.php:1661
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Moderirajte: \"%2$s\""
 
@@ -8174,8 +8174,8 @@ msgstr "Nova objava"
 msgid "Search Results for &#8220;%s&#8221;"
 msgstr "Rezultati pretraživanja za &#8220;%s&#8221;"
 
-#: wp-includes/pluggable.php:1487 wp-includes/pluggable.php:1635
-#: wp-includes/pluggable.php:1756
+#: wp-includes/pluggable.php:1496 wp-includes/pluggable.php:1644
+#: wp-includes/pluggable.php:1765
 msgid "Email: %s"
 msgstr "E-pošta: %s"
 

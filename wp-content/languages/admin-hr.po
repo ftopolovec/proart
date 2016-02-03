@@ -16,79 +16,79 @@ msgstr "Hvala na nadogradnji! WordPress %s čini vašu web stranicu više povezi
 
 #. translators: 1: WP_Term class name, WP_Comment class name, WP_Network class
 #. name
-#: wp-admin/about.php:185
+#: wp-admin/about.php:189
 msgid "New %1$s, %2$s, and %3$s objects make interacting with terms, comments, and networks more predictable and intuitive in code."
 msgstr "Novi %1$s, %2$s, i %3$s objekti omogućavaju predvidljivu i intuitivnu interakciju sa pojmovima, komentarima i mrežama."
 
 #. translators: WP_Comment_Query class name
-#: wp-admin/about.php:178
+#: wp-admin/about.php:182
 msgid "Comment queries now have cache handling to improve performance. New arguments in %s make crafting robust comment queries simpler."
 msgstr "Upiti komentara sada se keširaju za bolje performanse. Novi argumenti u %s prave velike upite komentara jednostavnijim."
 
-#: wp-admin/about.php:182
+#: wp-admin/about.php:186
 msgid "Term, comment, and network objects"
 msgstr "Pojam, komentar i mrežni objekti"
 
-#: wp-admin/about.php:175
+#: wp-admin/about.php:179
 msgid "Comment query improvements"
 msgstr "Poboljšanja upita komentara"
 
 #. translators: WordPress REST API plugin link
-#: wp-admin/about.php:156
+#: wp-admin/about.php:160
 msgid "Infrastructure is the first part of a multi-stage rollout for the REST API. Inclusion of core endpoints is targeted for an upcoming release. To get a sneak peek of the core endpoints, and for more information on extending the REST API, check out the official %s plugin."
 msgstr "Infrastruktura je prvi dio uvođenja REST API-ja u više koraka. Uključivanje WordPressovih krajnjih točaka je planirano za nadolazeće izdanje. Kako biste dobili rani pogled na WP krajnje točke i više informacija o proširivanju REST API-ja, pogledajte službeni dodatak %s."
 
 #. translators: 1: add_term_meta() docs link, 2: get_term_meta() docs link, 3:
 #. update_term_meta() docs link
-#: wp-admin/about.php:167
+#: wp-admin/about.php:171
 msgid "Terms now support metadata, just like posts. See %1$s, %2$s, and %3$s for more information."
 msgstr "Pojmovi sada podržavaju meta podatke, kao i objave. Pogledajte %1$s, %2$s, i %3$s za više informacija."
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:168
 msgid "Term meta"
 msgstr "Pojam metapodaci"
 
-#: wp-admin/about.php:139
+#: wp-admin/about.php:143
 msgid "Infrastructure for the REST API has been integrated into core, marking a new era in developing with WordPress. The REST API serves to provide developers with a path forward for building and extending RESTful APIs on top of WordPress."
 msgstr "Infrastruktura za REST API je ugrađena u WordPress, označavajući tako novu eru u razvoju sa WordPressom. REST API služi kako bi razvojnim programerima omogućio put naprijed za razvoj i proširivanje RESTful API-ja za WordPress."
 
-#: wp-admin/about.php:137
+#: wp-admin/about.php:141
 msgid "REST API infrastructure"
 msgstr "REST API infrastruktura"
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:130
 msgid "In addition to post embeds, WordPress 4.4 also adds support for five new oEmbed providers: Cloudup, Reddit&nbsp;Comments, ReverbNation, Speaker&nbsp;Deck, and VideoPress."
 msgstr "Uz podršku za ugradnju objava (post embeds), WordPress 4.4 također dodaje podršku za pet novih pružatelja oEmbed opcije: Cloudup, Reddit komentare, ReverbNation, Speaker&nbsp;Deck i VideoPress."
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:116
 msgid "Now you can embed your posts on other sites, even other WordPress sites. Simply drop a post URL into the editor and see an instant embed preview, complete with the title, excerpt, and featured image if you&#8217;ve set one. We&#8217;ll even include your site icon and links for comments and sharing."
 msgstr "Sada možete ugraditi svoje objave na drugim web stranicama, čak i drugim WordPress web stranicama. Samo pustite URL objave u uređivač i vidjeti ćete trenutni pretpregled ugradnje, zajedno s naslovom, izvatkom i izdvojenom slikom, ako ste je postavili. Uključiti ćemo čak i vašu ikonicu web stranice i poveznice za komentare i dijeljenje."
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:129
 msgid "Even more embed providers"
 msgstr "Još više pružatelja oEmbeda"
 
-#: wp-admin/about.php:98
+#: wp-admin/about.php:102
 msgid "WordPress now takes a smarter approach to displaying appropriate image sizes on any device, ensuring a perfect fit every time. You don&#8217;t need to do anything to your theme, it just works."
 msgstr "WordPress sada koristi pametniji pristup prikazu odgovarajućih veličina slika na bilo kojem uređaju, vodeći računa da je izbor savršen svakog puta. Ne morate ništa raditi na svojoj temi, jednostavno radi."
 
-#: wp-admin/about.php:111
+#: wp-admin/about.php:115
 msgid "Embed your WordPress content"
 msgstr "Ugradite svoj WordPress sadržaj"
 
-#: wp-admin/about.php:75
+#: wp-admin/about.php:79
 msgid "Twenty Sixteen was built to look great on any device. A fluid grid design, flexible header, fun color schemes, and more, will make your content shine."
 msgstr "Twenty Sixteen je napravljena da izgleda odlično na svakom uređaju. Promjenjivi izgled rešetke, promjenjivo zaglavlje, zabavne sheme boja i još toga, istaknuti će vaš sadržaj."
 
-#: wp-admin/about.php:97
+#: wp-admin/about.php:101
 msgid "Responsive images"
 msgstr "Prilagodljive slike"
 
-#: wp-admin/about.php:74
+#: wp-admin/about.php:78
 msgid "Our newest default theme, Twenty Sixteen, is a modern take on a classic blog design."
 msgstr "Naša najnovija izvorna tema, Twenty Sixteen, je suvremeni pogled na klasični blog dizajn."
 
-#: wp-admin/about.php:67
+#: wp-admin/about.php:71
 msgid "Twenty Sixteen"
 msgstr "Twenty Sixteen"
 
@@ -107,7 +107,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Trenutno postavljeno na: %s)"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:222
+#: wp-admin/about.php:226
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Inačica %s</strong> je adresirana na popravak jednog sigurnosnog problema."
 
@@ -129,15 +129,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Slika profila"
 
-#: wp-admin/about.php:213
+#: wp-admin/about.php:217
 msgid "Maintenance Releases"
 msgstr "Servisna izdanja"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:220
 msgid "Security Releases"
 msgstr "Sigurnosna izdanja"
 
-#: wp-admin/about.php:219
+#: wp-admin/about.php:223
 msgid "Maintenance and Security Releases"
 msgstr "Servisna i sigurnosna izdanja"
 
@@ -1991,7 +1991,7 @@ msgstr "Možete omogućiti pisanje bez ometanja koristeći ikonu na desnoj stran
 msgid "Log Out Everywhere"
 msgstr "Odjavi me odasvud"
 
-#: wp-admin/about.php:73
+#: wp-admin/about.php:77
 msgid "Introducing Twenty Sixteen"
 msgstr "Predstavljamo Twenty Sixteen"
 
@@ -4988,7 +4988,7 @@ msgid "Show Toolbar when viewing site"
 msgstr "Prikaži Alatnu traku prilikom pregledavanja web stranice"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:227
+#: wp-admin/about.php:231
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Inačica %1$s</strong> je adresirana na popravak %2$s greške."
@@ -4997,7 +4997,7 @@ msgstr[2] "<strong>Inačica %1$s</strong> je adresirana na popravak %2$s grešak
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:231
+#: wp-admin/about.php:235
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Inačica %1$s</strong> je adresirana na neke sigurnosne probleme i popravak %2$s greške."
@@ -5006,7 +5006,7 @@ msgstr[2] "<strong>Inačica %1$s</strong> je adresirana na neke sigurnosne probl
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:53 wp-admin/about.php:235
+#: wp-admin/about.php:53 wp-admin/about.php:57 wp-admin/about.php:239
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Inačica %1$s</strong> je adresirana na neke sigurnosne probleme i popravak %2$s greške."
@@ -5014,7 +5014,7 @@ msgstr[1] "<strong>Inačica %1$s</strong> je adresirana na neke sigurnosne probl
 msgstr[2] "<strong>Inačica %1$s</strong> je adresirana na neke sigurnosne probleme i popravak %2$s grešaka."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:55 wp-admin/about.php:239
+#: wp-admin/about.php:55 wp-admin/about.php:59 wp-admin/about.php:243
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Za više informacija, pogledajte <a href=\"%s\">objavu o ovom izdanju</a>."
 
@@ -5026,23 +5026,23 @@ msgstr "Dobro došli na svoju WordPress Nadzornu ploču! Ovaj zaslon ćete vidje
 msgid "What&#8217;s New"
 msgstr "Što je novo"
 
-#: wp-admin/about.php:52 wp-admin/about.php:218
+#: wp-admin/about.php:52 wp-admin/about.php:222
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "Održavanje i sigurnonosno izdanje"
 msgstr[1] "Održavanja i sigurnonosna izdanja"
 msgstr[2] "Održavanja i sigurnonosna izdanja"
 
-#: wp-admin/about.php:215
+#: wp-admin/about.php:219
 msgid "Security Release"
 msgstr "Sigurnosno izdanje"
 
-#: wp-admin/about.php:212
+#: wp-admin/about.php:216
 msgid "Maintenance Release"
 msgstr "Servisno izdanje"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:224
+#: wp-admin/about.php:228
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Inačica %s</strong> je adresirana na popravak sigurnosnog problema."
 
@@ -5050,7 +5050,7 @@ msgstr "<strong>Inačica %s</strong> je adresirana na popravak sigurnosnog probl
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Ovaj zaslon vam omogućuje da odaberete vašu strukturu stalnih veza. Možete izabrati između uobičajenih postavki ili kreirati svoje prilagođene URL strukture."
 
-#: wp-admin/about.php:197
+#: wp-admin/about.php:201
 msgid "Return to Updates"
 msgstr "Povratak na ažuriranja"
 
@@ -5342,11 +5342,11 @@ msgstr "Očigledno direktno uključivanje wp-admin/includes/template.php zapisa 
 msgid "Welcome to WordPress %s"
 msgstr "Dobro došli u WordPress %s"
 
-#: wp-admin/about.php:200
+#: wp-admin/about.php:204
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Idi na Nadzorna ploča &rarr; Početna"
 
-#: wp-admin/about.php:197
+#: wp-admin/about.php:201
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Povratak na Nadzorna ploča &rarr; Nadogradnje"
 
@@ -5358,7 +5358,7 @@ msgstr "WordPress je kreiran od strane tima entuzijasta iz cijelog svijeta."
 msgid "Core Developers"
 msgstr "Core razvojni programeri"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:137
 msgid "Under the Hood"
 msgstr "Ispod haube"
 
@@ -7484,7 +7484,7 @@ msgstr "WordPress ažuriranja"
 msgid "Edit Menu Item"
 msgstr "Uredi stavku izbornika"
 
-#: wp-admin/about.php:200
+#: wp-admin/about.php:204
 msgid "Go to Dashboard"
 msgstr "Idi na Nadzornu ploču"
 
