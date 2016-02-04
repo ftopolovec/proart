@@ -36,13 +36,15 @@ get_header( 'shop' ); ?>
 			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
 
 		<?php endif; ?>
-		<div align="center" id="position_description">
-		<button class="button_archive_description fusion-button button-3d" id="start_action">Što sve ovdje mogu pronaći?<i class="fa fa-chevron-down button-icon-right"></i></button>
-		</div>
-		<div id="toggle">
-		<?php
-			do_action( 'woocommerce_archive_description' );
-		?>
+		<div id="margin-bottom">
+			<div align="center" id="position_description">
+				<button class="button_archive_description fusion-button button-3d" id="start_action">Što sve ovdje mogu pronaći?<i class="fa fa-chevron-down button-icon-right"></i></button>
+			</div>
+			<div id="toggle">
+			<?php
+				do_action( 'woocommerce_archive_description' );
+			?>
+			</div>
 		</div>
 
 		<?php if ( have_posts() ) : ?>
@@ -54,7 +56,7 @@ get_header( 'shop' ); ?>
 				 * @hooked woocommerce_result_count - 20
 				 * @hooked woocommerce_catalog_ordering - 30
 				 */
-				do_action( 'woocommerce_before_shop_loop' );
+				// do_action( 'woocommerce_before_shop_loop' );
 			?>
 
 			<?php woocommerce_product_loop_start(); ?>
