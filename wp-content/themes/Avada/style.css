@@ -2312,7 +2312,7 @@ h2.entry-title {
 .image .image-extras .image-extras-content h2,
 .image .image-extras .image-extras-content a {
   font: 13px 'MuseoSlab500Regular', arial, helvetica, sans-serif;
-  color: #333333;
+  color: #fff !important;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   margin: 0;
   margin-top: 10px;
@@ -15885,7 +15885,7 @@ table {
 }
 .fusion-woo-featured-products-slider {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 .fusion-woo-featured-products-slider .products-slider {
   position: relative;
@@ -15938,8 +15938,9 @@ table {
   display: inline;
 }
 
-.fusion-woo-featured-products-slider.es-carousel-wrapper .es-carousel ul li a:first-child {
-  display: none;
+
+.fusion-woo-featured-products-slider .products-slider .product-buttons {
+      display: none;
 }
 
 .fusion-woo-featured-products-slider.es-carousel-wrapper .es-nav .es-nav-prev,
@@ -16040,6 +16041,38 @@ background:#fff;
 }
 
 .indexh1 h1 {
+
   color:#f9f9f9 !important;
   text-shadow: 0px 5px 3px #000;
+}
+
+#position_description {
+  margin-top:-56px;
+}
+
+.button_archive_description {
+  background: #f05858;
+  border-radius:0 0 5px 5px;
+  text-shadow: none;
+  color:#fff;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  padding:10px;
+  margin-bottom:10px;
+  text-transform: uppercase;
+  cursor:pointer;
+}
+
+.term-description {
+  background-color:#fcfcfc;
+  color:#999;
+  font-weight: thin;
+  padding:5px;
+  margin-bottom:10px;
+  border: 1px solid #e5e5e5;
+  font-size:14px;
+}
+
+.footer-area {
+  display:none;
 }
