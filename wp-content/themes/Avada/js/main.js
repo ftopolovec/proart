@@ -8963,3 +8963,4 @@ jQuery( document ).ajaxComplete( function() {
 		jQuery("a[rel^='prettyPhoto']").prettyPhoto(ppArgs);
 	}
 });
+
