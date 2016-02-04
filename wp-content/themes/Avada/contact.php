@@ -169,17 +169,17 @@ if($double_sidebars == true) {
 
 					<div id="comment-input">
 
-						<input type="text" name="contact_name" id="author" value="<?php if(isset($_POST['contact_name']) && !empty($_POST['contact_name'])) { echo wp_filter_kses( $_POST['contact_name'] ); } ?>" placeholder="<?php echo __('Name (required)', 'Avada'); ?>" size="22" tabindex="1" aria-required="true" class="input-name">
+						<input type="text" name="contact_name" id="author" value="<?php if(isset($_POST['contact_name']) && !empty($_POST['contact_name'])) { echo wp_filter_kses( $_POST['contact_name'] ); } ?>" placeholder="<?php echo __('Vaše ime (obavezno)', 'Avada'); ?>" size="22" tabindex="1" aria-required="true" class="input-name">
 
-						<input type="text" name="email" id="email" value="<?php if(isset($_POST['email']) && !empty($_POST['email'])) { echo wp_filter_kses( $_POST['email'] ); } ?>" placeholder="<?php echo __('Email (required)', 'Avada'); ?>" size="22" tabindex="2" aria-required="true" class="input-email">
+						<input type="text" name="email" id="email" value="<?php if(isset($_POST['email']) && !empty($_POST['email'])) { echo wp_filter_kses( $_POST['email'] ); } ?>" placeholder="<?php echo __('Email (obavezno)', 'Avada'); ?>" size="22" tabindex="2" aria-required="true" class="input-email">
 
-						<input type="text" name="url" id="url" value="<?php if(isset($_POST['url']) && !empty($_POST['url'])) { echo wp_filter_kses( $_POST['url'] ); } ?>" placeholder="<?php echo __('Subject', 'Avada'); ?>" size="22" tabindex="3" class="input-website">
+						<input type="text" name="url" id="url" value="<?php if(isset($_POST['url']) && !empty($_POST['url'])) { echo wp_filter_kses( $_POST['url'] ); } ?>" placeholder="<?php echo __('Predmet', 'Avada'); ?>" size="22" tabindex="3" class="input-website">
 
 					</div>
 
 					<div id="comment-textarea">
 
-						<textarea name="msg" id="comment" cols="39" rows="4" tabindex="4" class="textarea-comment" placeholder="<?php echo __('Message', 'Avada'); ?>"><?php if(isset($_POST['msg']) && !empty($_POST['msg'])) { echo wp_filter_kses( $_POST['msg'] ); } ?></textarea>
+						<textarea name="msg" id="comment" cols="39" rows="4" tabindex="4" class="textarea-comment" placeholder="<?php echo __('I vaša poruka....', 'Avada'); ?>"><?php if(isset($_POST['msg']) && !empty($_POST['msg'])) { echo wp_filter_kses( $_POST['msg'] ); } ?></textarea>
 
 					</div>
 
@@ -195,7 +195,7 @@ if($double_sidebars == true) {
 
 					<div id="comment-submit-container">
 
-						<p><div><input name="submit" type="submit" id="submit" tabindex="5" value="<?php echo __('Submit Form', 'Avada'); ?>" class="<?php echo sprintf( 'comment-submit btn btn-default button default small fusion-button button-small button-default button-%s button-%s', strtolower( $smof_data['button_shape'] ), strtolower( $smof_data['button_type'] ) ); ?>"></div></p>
+						<p><div><input name="submit" type="submit" id="submit" tabindex="5" value="<?php echo __('Pošalji', 'Avada'); ?>" class="<?php echo sprintf( 'fusion-button button-3d button-round button-medium button-color button-28 button-%s button-%s', strtolower( $smof_data['button_shape'] ), strtolower( $smof_data['button_type'] ) ); ?>"></div></p>
 					</div>
 
 			</form>
