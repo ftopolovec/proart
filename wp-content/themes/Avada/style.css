@@ -2112,7 +2112,7 @@ h2.entry-title {
   position: relative;
   padding: 18px 10px 12px;
   background: #282a2b;
-  border-top: 1px solid #4b4c4d;
+  border-top: solid 5px #f05858 !important;
 }
 #footer .copyright-area-content {
   display: table;
@@ -5507,6 +5507,7 @@ body .portfolio-grid {
 .orderby-order-container {
   float: left;
 }
+
 .products {
   list-style: none;
   margin: 0;
@@ -5626,6 +5627,7 @@ body .portfolio-grid {
   margin: 0 15px;
   margin-top: 4px;
   border-top: 1px solid #EBEAEA;
+  display:none;
 }
 .star-rating {
   overflow: hidden;
@@ -6036,9 +6038,13 @@ p.stars a.star-4:after {
 p.stars a.star-5:after {
   content: '\f005\f005\f005\f005\f005';
 }
+.related.products h2 {color:#fff;}
 .related.products,
 .upsells.products {
   margin-top: 50px;
+  background-image:url(http://localhost/proart/wp-content/uploads/2016/01/wood_bkgd-2.jpg);
+  background-attachment: scroll;
+  padding:20px;
 }
 .shop_attributes {
   width: 100%;
@@ -16048,6 +16054,11 @@ background:#fff;
 
 #position_description {
   margin-top:-56px;
+
+}
+
+#margin-bottom{
+  margin-bottom: 40px;
 }
 
 .button_archive_description {
@@ -16068,11 +16079,20 @@ background:#fff;
   color:#999;
   font-weight: thin;
   padding:5px;
-  margin-bottom:10px;
+  margin-bottom:20px;
   border: 1px solid #e5e5e5;
   font-size:14px;
 }
 
 .footer-area {
   display:none;
+}
+
+.button-color{
+  background-color:#f05858 !important;
+  text-shadow:none;
+}
+.button-color:hover{
+  background-color:#D65454 !important;
+  text-shadow:none;
 }
