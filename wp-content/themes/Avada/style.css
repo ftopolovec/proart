@@ -15900,6 +15900,7 @@ table {
 .fusion-woo-featured-products-slider .products-slider ul li {
   margin-right: 0;
   height: auto;
+  width:450px !important;
 }
 .fusion-woo-featured-products-slider .products-slider ul li .image {
   visibility: hidden;
