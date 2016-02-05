@@ -153,7 +153,7 @@ function themefusion_breadcrumb() {
 		 if ( !is_front_page() ) {
 		echo '<li>'.$smof_data['breacrumb_prefix'].' <a href="';
 		echo home_url();
-		echo '">'.__('Home', 'Avada');
+		echo '">'.__('Početna', 'Avada');
 		echo "</a></li>";
 		}
 
@@ -224,7 +224,7 @@ function themefusion_breadcrumb() {
 			echo '<li>'.get_the_title().'</li>';
 		}
 		if( is_tag() ){ echo '<li>'."Tag: ".single_tag_title('',FALSE).'</li>'; }
-		if( is_search() ){ echo '<li>'.__("Search", 'Avada').'</li>'; }
+		if( is_search() ){ echo '<li>'.__("Pretraži", 'Avada').'</li>'; }
 		if( is_year() ){ echo '<li>'.get_the_time('Y').'</li>'; }
 		
 		if( is_404() ) { 
@@ -233,7 +233,7 @@ function themefusion_breadcrumb() {
 			) { 
 				echo '<li>'. tribe_get_events_title() .'</li>';
 			} else {		
-				echo '<li>'.__("404 - Page not Found", 'Avada').'</li>'; 
+				echo '<li>'.__("404 - Stranica nije pronađena", 'Avada').'</li>'; 
 			}
 		}		
 		
@@ -917,7 +917,7 @@ function avada_current_page_title_bar( $post_id ) {
 		}
 
 		if( is_search() ) {
-			$title = __('Search results for:', 'Avada') . get_search_query();
+			$title = __('Rezultati pretrage za:', 'Avada') . get_search_query();
 		}
 
 		if( is_404() ) {
@@ -934,11 +934,11 @@ function avada_current_page_title_bar( $post_id ) {
 			! is_bbpress()
 		) {
 			if ( is_day() ) {
-				$title = __( 'Daily Archives:', 'Avada' ) . '<span> ' . get_the_date() . '</span>';
+				$title = __( 'Dnevna arhiva:', 'Avada' ) . '<span> ' . get_the_date() . '</span>';
 			} else if ( is_month() ) {
-				$title = __( 'Monthly Archives:', 'Avada' ) . '<span> ' . get_the_date( _x( 'F Y', 'monthly archives date format', 'Avada' ) ) . '</span>';
+				$title = __( 'Mjesečna arhiva:', 'Avada' ) . '<span> ' . get_the_date( _x( 'F Y', 'monthly archives date format', 'Avada' ) ) . '</span>';
 			} elseif ( is_year() ) {
-				$title = __( 'Yearly Archives:', 'Avada' ) . '<span> ' . get_the_date( _x( 'Y', 'yearly archives date format', 'Avada' ) ) . '</span>';
+				$title = __( 'Godišnja arhiva:', 'Avada' ) . '<span> ' . get_the_date( _x( 'Y', 'yearly archives date format', 'Avada' ) ) . '</span>';
 			} elseif ( is_author() ) {
 				$curauth = get_user_by( 'id', get_query_var( 'author' ) );
 				$title = $curauth->nickname;

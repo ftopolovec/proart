@@ -73,12 +73,12 @@
 
 		<?php if ( have_posts() && strlen( trim(get_search_query()) ) != 0 ) : ?>
 		<div class="search-page-search-form">
-			<h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
-			<p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+			<h2><?php echo __('Trebate ponovo nešto tražiti?', 'Avada'); ?></h2>
+			<p><?php echo __('Ukoliko niste pronašli željene informacije pokušajte ponovo!', 'Avada'); ?></p>
 			<form id="searchform" class="seach-form" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
 				<div class="search-table">
 					<div class="search-field">
-						<input type="text" value="" name="s" id="s" placeholder="<?php _e( 'Search ...', 'Avada' ); ?>"/>
+						<input type="text" value="" name="s" id="s" placeholder="<?php _e( 'Pretraži ...', 'Avada' ); ?>"/>
 					</div>
 					<div class="search-button">
 						<input type="submit" id="searchsubmit" value="&#xf002;" />
@@ -172,12 +172,10 @@
 							<?php if($smof_data['search_layout'] == 'Grid' || $smof_data['search_layout'] == 'Timeline'): ?>
 							<?php if($smof_data['search_layout'] != 'Large Alternate' && $smof_data['search_layout'] != 'Medium Alternate'): ?>
 							<div class="alignleft">
-								<?php if(!$smof_data['post_meta_read']): ?><a href="<?php the_permalink(); ?>" class="read-more"><?php echo __('Read More', 'Avada'); ?></a><?php endif; ?>
+								<?php if(!$smof_data['post_meta_read']): ?><a href="<?php the_permalink(); ?>" class="read-more"><?php echo __('Saznaj više', 'Avada'); ?></a><?php endif; ?>
 							</div>
 							<?php endif; ?>
-							<div class="alignright">
-								<?php if(!$smof_data['post_meta_comments']): ?><?php comments_popup_link('<i class="fusionicon-bubbles"></i>&nbsp;'.__('0', 'Avada'), '<i class="fusionicon-bubbles"></i>&nbsp;'.__('1', 'Avada'), '<i class="fusionicon-bubbles"></i>&nbsp;'.'%'); ?><?php endif; ?>
-							</div>
+							
 							<?php else: ?>
 							<?php if($smof_data['search_layout'] != 'Large Alternate' && $smof_data['search_layout'] != 'Medium Alternate'): ?>
 							<div class="alignleft vcard">
@@ -185,7 +183,7 @@
 							</div>
 							<?php endif; ?>
 							<div class="alignright">
-								<?php if(!$smof_data['post_meta_read']): ?><a href="<?php the_permalink(); ?>" class="read-more"><?php echo __('Read More', 'Avada'); ?></a><?php endif; ?>
+								<?php if(!$smof_data['post_meta_read']): ?><a href="<?php the_permalink(); ?>" class="read-more"><?php echo __('Saznaj više', 'Avada'); ?></a><?php endif; ?>
 							</div>
 							<?php endif; ?>
 						</div>
@@ -205,14 +203,14 @@
 	<?php else: ?>
 	<div class="post-content">
 		<div class="fusion-title title">
-			<h2 class="title-heading-left"><?php echo __('Couldn\'t find what you\'re looking for!', 'Avada'); ?></h2><div class="title-sep-container"><div class="title-sep sep-double"></div></div>			
+			<h2 class="title-heading-left"><?php echo __('Nismo pronašl što ste tražili!', 'Avada'); ?></h2><div class="title-sep-container"><div class="title-sep sep-double"></div></div>			
 		</div>
 		<div class="error_page">
 			<div class="fusion-one-third one_third fusion-column">
-				<h1 class="oops <?php echo ($sidebar_css != 'display:none') ? 'sidebar-oops' : ''; ?>"><?php echo __('Oops!', 'Avada'); ?></h1>
+				<h1 class="oops <?php echo ($sidebar_css != 'display:none') ? 'sidebar-oops' : ''; ?>"><?php echo __('Greška!', 'Avada'); ?></h1>
 			</div>
 			<div class="fusion-one-third one_third fusion-column useful_links">
-				<h3><?php echo __('Here are some useful links:', 'Avada'); ?></h3>
+				<h3><?php echo __('Evo nekoliko korisnih poveznica:', 'Avada'); ?></h3>
 				<?php $iconcolor = strtolower($smof_data['checklist_icons_color']); ?>
 
 				<style type='text/css'>
@@ -223,12 +221,12 @@
 				<?php wp_nav_menu(array('theme_location' => '404_pages', 'depth' => 1, 'container' => false, 'menu_id' => 'checklist-1', 'menu_class' => 'list-icon circle-yes list-icon-arrow')); ?>
 			</div>
 			<div class="fusion-one-third one_third fusion-column last">
-				<h3><?php echo __('Try again!', 'Avada'); ?></a></h3>
-				<p><?php echo __('If you want to rephrase your query, here is your chance:', 'Avada'); ?></p>
+				<h3><?php echo __('Pokušajte ponovo!', 'Avada'); ?></a></h3>
+				<p><?php echo __('Pokušajte sa drugačijim pojmom:', 'Avada'); ?></p>
 				<form id="searchform" class="seach-form" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
 					<div class="search-table">
 						<div class="search-field">
-							<input type="text" value="" name="s" id="s" placeholder="<?php _e( 'Search ...', 'Avada' ); ?>"/>
+							<input type="text" value="" name="s" id="s" placeholder="<?php _e( 'Pretraži ...', 'Avada' ); ?>"/>
 						</div>
 						<div class="search-button">
 							<input type="submit" id="searchsubmit" value="&#xf002;" />
@@ -240,29 +238,5 @@
 	</div>
 	<?php endif; ?>
 	</div>
-	<?php if( $sidebar_exists == true ): ?>
-	<?php wp_reset_query(); ?>
-	<div id="sidebar" class="sidebar" style="<?php echo $sidebar_css; ?>">
-		<?php
-		if($sidebar_left == 1) {
-			generated_dynamic_sidebar($sidebar_1);
-		}
-		if($sidebar_left == 2) {
-			generated_dynamic_sidebar_2($sidebar_2);
-		}
-		?>
-	</div>
-	<?php if( $double_sidebars == true ): ?>
-	<div id="sidebar-2" class="sidebar" style="<?php echo $sidebar_2_css; ?>">
-		<?php
-		if($sidebar_left == 1) {
-			generated_dynamic_sidebar_2($sidebar_2);
-		}
-		if($sidebar_left == 2) {
-			generated_dynamic_sidebar($sidebar_1);
-		}
-		?>
-	</div>
-	<?php endif; ?>
-	<?php endif; ?>
+	
 <?php get_footer(); ?>
